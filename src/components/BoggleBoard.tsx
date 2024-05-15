@@ -2,7 +2,9 @@ import React from 'react';
 import BoggleDie from './BoggleDie';
 
 const BoggleBoard: React.FC = () => {
-  const dice = Array.from({ length: 25 }, (_, i) => <BoggleDie key={i} />);
+  const getRandomLetter = () => String.fromCharCode(65 + Math.floor(Math.random() * 26));
+
+  const dice = Array.from({ length: 25 }, (_, i) => <BoggleDie key={i} letter={getRandomLetter()} />);
   
   return (
     <div className="boggle-board">

@@ -1,10 +1,13 @@
 import React from 'react';
 
-const BoggleDie: React.FC = () => {
+interface BoggleDieProps {
+  letter: string;
+}
+
+const BoggleDie: React.FC<BoggleDieProps> = ({ letter }) => {
   return (
     <div className="boggle-die">
-      {/* Replace "A" with the actual letter on the die */}
-      A
+      {letter}
     </div>
   );
 }
