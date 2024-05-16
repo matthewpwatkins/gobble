@@ -15,8 +15,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - var(--game-padding));
-  width: calc(100vh - var(--game-padding));
+  height: calc(min(100vh, 100vw) - var(--game-padding));
+  width: calc(min(100vh, 100vw) - var(--game-padding));
   background-color: blue;
   padding: 20px;
   border-radius: 15px;
@@ -40,7 +40,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 9rem;
+  font-size: calc(3.5vw + 3.5vh);
   font-weight: bold;
   color: black;
+  height: 100%;
+  width: 100%;
 }
