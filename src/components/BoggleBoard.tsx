@@ -1,5 +1,7 @@
 import React from 'react';
 import BoggleDie from './BoggleDie';
+// From https://boardgames.stackexchange.com/a/53097
+// NOTE: EEINSV might actually be EEINSU in the game.
 import diceLetters from '../dice.json';
 
 const BoggleBoard: React.FC = () => {
