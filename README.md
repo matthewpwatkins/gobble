@@ -6,7 +6,7 @@
 
 I like playing Jumbo Boggle with my family. But we lost our Boggle board. Also my work recently gave me access to GitHub Copilot. So I decided to put it through its paces creating a Boggle board generator.
 
-My goal was simple: Don't write any of the code myself. Ask GitHub Copilot to generate the code, describe the output and ask it to fix it. This is the result.
+My goal was simple: Don't write any of the code myself. Ask GitHub Copilot to generate the code using only the level of detail you might get from a semi-technical product manager, describing the output of its code, and ask it to fix it based on what I see so it can iterate on it. This is the result.
 
 ## Play it yourself
 
